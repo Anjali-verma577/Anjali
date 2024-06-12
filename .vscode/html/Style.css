@@ -1,0 +1,156 @@
+
+*{
+    padding:0;
+    margin: 0;
+    
+}
+#navbar
+    {
+        height:60px;
+        background-color: #0f1111;
+    }
+    #logo{
+        background-color: orange;
+        font-size: 25px;
+    }
+
+    h1{
+    text-align: center;
+    color :black;
+    text-decoration: underline;
+    background-color: rgb(221, 221, 126);
+    border-style: dashed;
+}
+p{ 
+    text-align: center;
+    color :rgb(33, 22, 4);
+
+}
+
+#one {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/*div{
+    /*font-size: large;
+    font-style:italic;*/
+    /*height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border-radius: 50px;*/
+a {
+    margin-right: 200px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  button{
+    color:brown;
+    text-align: center;
+    height: 40px;
+    width: 150px;
+  position: relative;
+  border: 3px solid green;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  footer{
+    background: #7f5050;
+    padding-top: 50px;
+  }
+  .container{
+    width: 1140px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+  }
+  .footer{
+    width: 33.3%;
+  }
+  h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .footer-contentp{
+    width: 190px;
+    margin: auto;
+    padding: 7px;
+  }
+  .footer-content ul{
+    text-align: center;
+  }
+  .list{
+    padding: 0;
+  }
+  .list li{
+    width:auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+  }
+  .list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    text-align: center;
+    background: #f18930;
+    transition-duration: .5s;
+  }
+  .list li:hover::before{
+    width: 70px;
+  }
+  .social-icons i{
+    text-align:center ;
+    padding: 0;
+  }
+  .social-icons i{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+  }
+  .social-icons i{
+    color: white;
+    font-size:25px;
+  }
+  a{
+    text-decoration: none;
+  }
+  a:hover{
+    color:#f18930
+  }
+  .social-icons i:hover
+  {
+    color: #f18930;
+  }
+  .bottom-bar{
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+  }
+  .bottom-bar p{
+    color: #343434;
+  }
+
+  
+  

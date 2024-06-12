@@ -1,0 +1,10 @@
+var integerNumber = 10;
+var floatNumber = 3.14;
+var stringText = "Anjali";
+var booleanValue = true;
+var nullvalue = null;
+console.log("Integer Number:",integerNumber);
+console.log("Float Number:",floatNumber);
+console.log("String:",stringText);
+console.log("Boolean Value:",booleanValue);
+console.log("Null value:",nullvalue);
